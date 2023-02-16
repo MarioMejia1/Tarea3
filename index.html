@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Multicapa</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body> 
+      
+    <h2>Agregar Nuevo Contacto</h2>
+    
+    <form id ="formulario">
+      <div class="cuerpo">
+      <label for="name">Nombre:</label>
+      <input type="text" id="nombre" name="name">
+      
+      <label for="apellido">Apellido:</label>
+      <input type="text" id="apellido" name="surname">
+      
+      <label for="telefono">Teléfono:</label>
+      <input type="text" id="telefono" name="phone">
+    </div>
+    <div class="botom">
+    <button type="submit" class="button" onclick="mandar()">Agregar</button>
+  </div>
+    </form>
+    <h1>Agenda de Contactos</h1>
+    <table class="contact-table">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Teléfono</th>
+      </tr>
+    </thead>
+
+    <tbody id="data">
+
+    </tbody>
+       </table>
+      
+</body>
+</html>
