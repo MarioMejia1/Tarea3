@@ -1,3 +1,3 @@
 Esta es la tarea #3
 
-![Captura de pantalla](Promesas.PNG)
+![Captura de pantalla](img/Promesas.PNG)
